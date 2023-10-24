@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MIBS Logo with Three JS</title>
+
+    <!-- ------ ------ ------ ------ ------ ------ -->
+    <!-- ------ ------      CSS      ------ ------ -->
+    <!-- ------ ------ ------ ------ ------ ------ -->
+    <style>
+      body { margin: 0; }
+      #info {
+        position: absolute;
+        top: 10px;
+        width: 100%;
+        text-align: center;
+        z-index: 100;
+        display:block;
+      }
+    </style>
+
+    <!-- ------ ------ ------ ------ ------ ------ -->
+    <!-- ------ ------       JS      ------ ------ -->
+    <!-- ------ ------ ------ ------ ------ ------ -->
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "./libJS/three/build/three.module.js",
+          "three/addons/": "./libJS/three/examples/jsm/"
+        }
+      }
+    </script>
+  </head>
+
+  <body>
+    <!-- <div id="info">Description for Demo 3</div> -->
+
+    <!-- ------ ------ ------ ------ ------ ------ -->
+    <!-- ------ ------       JS      ------ ------ -->
+    <!-- ------ ------ ------ ------ ------ ------ -->
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
