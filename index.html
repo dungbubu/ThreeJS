@@ -1,44 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>MIBS Logo with Three JS</title>
-
-    <!-- ------ ------ ------ ------ ------ ------ -->
-    <!-- ------ ------      CSS      ------ ------ -->
-    <!-- ------ ------ ------ ------ ------ ------ -->
-    <style>
-      body { margin: 0; }
-      #info {
-        position: absolute;
-        top: 10px;
-        width: 100%;
-        text-align: center;
-        z-index: 100;
-        display:block;
-      }
-    </style>
-
-    <!-- ------ ------ ------ ------ ------ ------ -->
-    <!-- ------ ------       JS      ------ ------ -->
-    <!-- ------ ------ ------ ------ ------ ------ -->
-    <script type="importmap">
-      {
-        "imports": {
-          "three": "./libJS/three/build/three.module.js",
-          "three/addons/": "./libJS/three/examples/jsm/"
-        }
-      }
-    </script>
+    <title>three.js webgl - GLTFloader</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"
+    />
+    <link type="text/css" rel="stylesheet" href="./main.css" />
   </head>
 
   <body>
-    <!-- <div id="info">Description for Demo 3</div> -->
+    <script type="importmap">
+      {
+        "imports": {
+          "three":           "./libJS/threejs/build//three.module.js",
+          "three/addons/":   "./libJS/threejs/examples/jsm/"
+        }
+      }
+    </script>
 
-    <!-- ------ ------ ------ ------ ------ ------ -->
-    <!-- ------ ------       JS      ------ ------ -->
-    <!-- ------ ------ ------ ------ ------ ------ -->
     <script type="module" src="./main.js"></script>
   </body>
 </html>
